@@ -1,0 +1,21 @@
+{
+  "name": "pages-plugin-twind",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "build": "wrangler pages functions build --plugin --outfile index.js"
+  },
+  "dependencies": {
+    "twind": "^0.16.16"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.7.1",
+    "esbuild": "^0.14.38",
+    "wrangler": "^0.0.27"
+  }
+}

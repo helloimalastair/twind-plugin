@@ -1,0 +1,17 @@
+{
+  "name": "pages-plugins-example",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:prod": "wrangler pages functions build --outfile static/_worker.js",
+    "start": "wrangler pages dev static -k KV"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.7.1",
+    "wrangler": "^0.0.27"
+  },
+  "dependencies": {
+    "@miniflare/core": "^2.4.0",
+    "nanoid": "^3.3.3"
+  }
+}
