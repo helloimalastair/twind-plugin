@@ -1,4 +1,4 @@
-import twindPlugin from "@cfpreview/pages-plugin-twind";
+import twindPlugin from "pages-plugin-twind";
 
 const hello = async ({ next }) => {
   const response = await next();
